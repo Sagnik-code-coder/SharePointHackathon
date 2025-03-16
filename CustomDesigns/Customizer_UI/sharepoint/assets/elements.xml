@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="CustomTemplate1"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="c4797291-aa70-4a19-aeee-fea52d9379ce"
+        ClientSideComponentProperties="{&quot;cssurl&quot;:&quot;https://mazdausa.sharepoint.com/sites/MCISPOTest/SiteAssets/Branding/css/custom.css&quot;}">
+    </CustomAction>
+</Elements>

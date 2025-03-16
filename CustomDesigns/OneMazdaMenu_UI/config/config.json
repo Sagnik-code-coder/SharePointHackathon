@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "page-footer-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pageFooter/PageFooterWebPart.js",
+          "manifest": "./src/webparts/pageFooter/PageFooterWebPart.manifest.json"
+        }
+      ]
+    },
+    "landing-page-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/landingPage/LandingPageWebPart.js",
+          "manifest": "./src/webparts/landingPage/LandingPageWebPart.manifest.json"
+        }
+      ]
+    },
+    "application-menu-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/applicationMenu/ApplicationMenuWebPart.js",
+          "manifest": "./src/webparts/applicationMenu/ApplicationMenuWebPart.manifest.json"
+        }
+      ]
+    },
+    "current-navigation-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/currentNavigation/CurrentNavigationWebPart.js",
+          "manifest": "./src/webparts/currentNavigation/CurrentNavigationWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PageFooterWebPartStrings": "lib/webparts/pageFooter/loc/{locale}.js",
+    "LandingPageWebPartStrings": "lib/webparts/landingPage/loc/{locale}.js",
+    "ApplicationMenuWebPartStrings": "lib/webparts/applicationMenu/loc/{locale}.js",
+    "CurrentNavigationWebPartStrings": "lib/webparts/currentNavigation/loc/{locale}.js"
+  }
+}

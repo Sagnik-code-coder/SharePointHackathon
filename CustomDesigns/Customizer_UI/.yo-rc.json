@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "custom-template",
+    "libraryId": "d4ec3a76-c8fa-42f5-a383-3eb4a0973b81",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "CustomTemplate",
+    "solutionShortDescription": "CustomTemplate description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

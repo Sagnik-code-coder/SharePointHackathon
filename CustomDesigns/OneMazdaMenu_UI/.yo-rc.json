@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "16.13.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "one-mazda-menu",
+    "libraryId": "994d4d28-62e1-4cac-8dbc-aaa56e446078",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "OneMazdaMenu",
+    "solutionShortDescription": "OneMazdaMenu description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

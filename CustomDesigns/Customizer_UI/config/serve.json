@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://mazdausa.sharepoint.com/sites/MCISPOTestSite/SitePages/LandingPage.aspx",
+      "customActions": {
+        "c4797291-aa70-4a19-aeee-fea52d9379ce": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test Message 101",
+            "Top": "Top area of the page",
+            "Bottom": "Bottom area of the page",
+            "cssurl":"https://mazdausa.sharepoint.com/sites/MCISPOTestSite/SiteAssets/Branding/css/custom.css"
+          }
+        }
+      }
+    },
+    "customTemplate1": {
+      "pageUrl": "https://mazdausa.sharepoint.com/sites/MCISPOTestSite/SitePages/LandingPage.aspx",
+      "customActions": {
+        "c4797291-aa70-4a19-aeee-fea52d9379ce": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test Message 101",
+            "Top": "Top area of the page",
+            "Bottom": "Bottom area of the page",
+            "cssurl":"https://mazdausa.sharepoint.com/sites/MCISPOTestSite/SiteAssets/Branding/css/custom.css"
+          }
+        }
+      }
+    },
+    "css":{
+      "pageUrl": "https://mazdausa.sharepoint.com/sites/MCISPOTestSite/SitePages/LandingPage.aspx",
+      "customActions": {
+        "c4797291-aa70-4a19-aeee-fea52d9379ce": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "cssurl":"https://mazdausa.sharepoint.com/sites/MCISPOTestSite/SiteAssets/Branding/css/custom.css"
+          }
+        }
+      }
+    }
+  }
+}

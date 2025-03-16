@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "OneMazdaMenuPkg",
+    "id": "994d4d28-62e1-4cac-8dbc-aaa56e446078",
+    "version": "1.0.0.9",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "OneMazdaMenu description"
+      },
+      "longDescription": {
+        "default": "OneMazdaMenu description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "one-mazda-menu Feature",
+        "description": "The feature that activates elements of the one-mazda-menu solution.",
+        "id": "c4258787-17c8-437e-95be-8b47b03805a5",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/one-mazda-menu.sppkg"
+  }
+}
